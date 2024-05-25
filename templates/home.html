@@ -31,7 +31,7 @@
         </nav>
 
         <div class="form-container">
-            <form action="{{ url_for('predict_datapoint')}}" method="POST">
+            <form class="form" action="{{ url_for('predict_datapoint')}}" method="POST">
                 <h2>Student Performance Prediction</h2>
                 
                 <div class="input-group">
@@ -96,12 +96,13 @@
                 </div>
                 
                 <button type="submit" value="Predict your Maths Score">Predict</button>
+
+                <h2>
+                    The Predicted Math Score is {{results}}
+                </h2>
             </form>
     
-
-            <h2>
-                The Predicted Math Score is {{results}}
-            </h2>
+            
         </div>
     </header>
    <body>
