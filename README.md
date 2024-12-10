@@ -1,1 +1,1 @@
-## Student Performance Machine Learning Project
+## Performance Prediction Pipeline - Machine Learning Project
